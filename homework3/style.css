@@ -1,0 +1,209 @@
+.square-red{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: red;
+    border: 5px solid pink;
+    z-index: 1;
+}
+
+.square-red-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    color: violet;
+}
+.square-red-content span {
+    color: violet;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+
+.square-orange{
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 100px;
+    overflow: hidden;
+    background: orange;
+    border: 5px solid indigo;
+    z-index: 2;
+}
+.square-orange-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    color: pink;
+}
+.square-orange-content span {
+    color: purple;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+/*
+---------------------------*/
+.square-yellow{
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    top: 200px;
+    overflow: hidden;
+    background: yellow;
+    border: 5px solid blue;
+    z-index: 3;
+}
+
+.square-yellow-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue;
+}
+.square-yellow-content span {
+    color: blue;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+.square-green {
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 300px;
+    top: 300px;
+    overflow: hidden;
+    background: green;
+    border: 5px solid black;
+    z-index: 3;
+}
+
+.square-green-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+}
+.square-green-content span {
+    color: black;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+.square-blue {
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    top: 400px;
+    overflow: hidden;
+    background: blue;
+    border: 5px solid yellow;
+    z-index: 3;
+}
+
+.square-blue-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: yellow;
+}
+.square-blue-content span {
+    color: yellow;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+
+.square-indigo {
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 500px;
+    overflow: hidden;
+    background: indigo;
+    border: 5px solid orange;
+    z-index: 3;
+}
+
+.square-indigo-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: orange;
+}
+.square-indigo-content span {
+    color: orange;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+.square-violet {
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 600px;
+    overflow: hidden;
+    background: violet;
+    border: 5px solid red;
+    z-index: 3;
+}
+
+.square-violet-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+}
+.square-violet-content span {
+    color: red;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+
+.square-black {
+    position: absolute;;
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    top: 300px;
+    overflow: hidden;
+    background: black;
+    border: 5px solid green;
+    z-index: 3;
+}
+.square-black-content{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    color: white;
+}
+.square-black-content span {
+    color: white;
+    display: table-cell;
+    top:0;
+    left:0;
+    font-style: italic;
+}
+
+.footer {
+    position: absolute;
+    margin: auto;
+    bottom: 0px;
+    left: 500px;
+    right: 500px;
+}
