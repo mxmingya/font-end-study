@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>A program written in JS</title>
+  <script type= "text/javascript">
+  document.writeln(
+    "<h1>Welcome to Javascript programming</h1>"
+  );
+  var name;
+  var date;
+  var hour;
+  window.alert("this is an alert!");
+  name = window.prompt("plz enter your name");
+  date = new Date();
+  hour = date.getHours();
+  if ( hour < 12 ) {
+    document.write("<h1>Good morning!</h1>");
+  }
+  else if (hour > 12 && hour <= 18 ) {
+    document.write("<h1>Good afternoon!</h1>");
+  }
+  else {
+    document.write("<h1>Good evening!</h1>");
+  }
+
+  document.writeln("<h2>welcome to my website Ms." + name + " </h2>");
+  </script>
+</head><body>
+
+</body>
+</html>

@@ -189,7 +189,7 @@
 .square-black-content{
     position: absolute;
     top: 90px;
-    left: 0px;
+    left: 0;
     color: white;
 }
 .square-black-content span {
@@ -203,7 +203,124 @@
 .footer {
     position: absolute;
     margin: auto;
-    bottom: 0px;
+    bottom: 0;
     left: 500px;
     right: 500px;
+}
+
+.violet_square {
+    display:table-cell;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: red;
+    background: violet;
+    overflow: hidden;
+    top: 800px;
+    right: 0;
+    border: 5px solid red;
+    z-index: 0;
+}
+
+.indigo_square {
+    display:table-cell;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: orange;
+    background: indigo;
+    overflow: hidden;
+    top: 900px;
+    right: 100px;
+    border: 5px solid orange;
+    z-index: 3;
+}
+
+.blue_square {
+    display:table-cell;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: yellow;
+    background: blue;
+    overflow: hidden;
+    top: 1000px;
+    right: 200px;
+    border: 5px solid yellow;
+    z-index: 3;
+}
+
+.green_square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: black;
+    background: green;
+    overflow: hidden;
+    top: 1100px;
+    right: 300px;
+    border: 5px solid black;
+    z-index: 3;
+}
+
+.yellow_square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: blue;
+    background: yellow;
+    overflow: hidden;
+    top: 1200px;
+    right: 200px;
+    border: 5px solid blue;
+    z-index: 3;
+}
+
+.orange_square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: indigo;
+    background: orange;
+    overflow: hidden;
+    top: 1300px;
+    right: 100px;
+    border: 5px solid indigo;
+    z-index: 3;
+}
+
+.red_square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    color: violet;
+    background: red;
+    overflow: hidden;
+    top: 1400px;
+    right: 0;
+    border: 5px solid violet;
+    z-index: 3;
+}
+
+.black_square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-style: italic;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    background: black;
+    overflow: hidden;
+    top: 1100px;
+    right: 1000px;
+    border: 5px solid green;
+    z-index: 3;
 }
