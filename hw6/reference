@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://ay16.moodle.umn.edu/pluginfile.php/2049701/mod_resource/content/1/animation.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./animation_files/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#left").click(function(){
+        $("#divTop").animate({left: '-=250px'}, "slow");
+        $("#divBelow").animate({left: '-=250px'}, "slow");
+    });
+    $("#right").click(function(){
+    	$("#divTop").animate({left: '+=250px'}, "slow");
+        $("#divBelow").animate({left: '+=250px'}, "slow");
+    });
+    $("#up").click(function(){
+        $("#divTop").animate({top: '-=250px'}, "slow");
+        $("#divBelow").animate({top: '-=250px'}, "slow");
+    });
+    $("#down").click(function(){
+    	$("#divTop").animate({top: '+=250px'}, "slow");
+        $("#divBelow").animate({top: '+=250px'}, "slow");
+    });
+});
+</script>
+</head>
+<body>
+
+<button id="right">Shift Right</button>
+<button id="left">Shift Left</button>
+<button id="up">Shift Up</button>
+<button id="down">Shift Down</button>
+
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+
+<div id="divTop" style="background:#98bf21;height:100px;width:100px;position:relative;"></div>
+<div id="divBelow" style="background:#000000;height:100px;width:100px;position:relative;"></div>
+
+
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" src="./animation_files/saved_resource.html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="en-t-k0-und" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:false,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div><iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; box-sizing: content-box; width: 517px; height: 211px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px 0px; z-index: 2147483644; margin: 0px; position: fixed; display: none; left: 755px; top: 446px;" src="./animation_files/saved_resource(1).html"></iframe></body></html>
