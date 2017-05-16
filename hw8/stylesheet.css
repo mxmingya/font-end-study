@@ -6,10 +6,8 @@ h1 {
     border: 1px solid black;
 }
 
-button {
-  text:bold;
+button { 
   text-align: center;
   font-size: 16px;
     margin: 4px 2px;
 }
-
